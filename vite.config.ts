@@ -37,7 +37,7 @@ export default defineConfig({
 		alias: {
 			'@': resolve(__dirname, './src'),
 		},
-		extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
+		extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.scss', '.css'],
 	},
 
 	// Optimize dependencies
