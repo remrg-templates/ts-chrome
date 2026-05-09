@@ -1,0 +1,23 @@
+{
+	"manifest_version": 3,
+	"name": "{{ remrg:var project-name }}",
+	"version": "1.0.0",
+	"description": "{{ remrg:var project-name }}",
+	"permissions": ["activeTab", "storage", "contextMenus"],
+	"action": {
+		"default_popup": "popup/index.html",
+		"default_title": "{{ remrg:var project-name }}"
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"css": ["content/index.css"],
+			"js": ["content/index.js"],
+			"run_at": "document_end"
+		}
+	],
+	"background": {
+		"service_worker": "background/index.js",
+		"type": "module"
+	}
+}

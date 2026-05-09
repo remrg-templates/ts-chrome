@@ -18,7 +18,8 @@
 		"noImplicitOverride": true,
 		"noImplicitReturns": true,
 		"useUnknownInCatchVariables": true,
-		"types": [],
+		"types": ["chrome"],
+		"typeRoots": ["../node_modules/@types"],
 		"paths": {
 			"@/*": ["./src/*"]
 		}

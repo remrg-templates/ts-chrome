@@ -1,2 +1,2 @@
-// {{ remrg:task Export the main functionality of the lib/app here }}
+// {{ remrg:task Export global utilities here }}
 import './index.scss';

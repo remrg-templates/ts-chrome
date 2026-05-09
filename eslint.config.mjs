@@ -18,6 +18,7 @@ const eslintConfig = [
 			},
 			globals: {
 				...globals.browser,
+				...globals.webextensions,
 				process: 'readonly',
 			},
 		},
